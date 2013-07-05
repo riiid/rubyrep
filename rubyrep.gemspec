@@ -27,8 +27,8 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<activerecord>, ["~> 3.2.8"])
       s.add_development_dependency(%q<hoe>, ["~> 2.10"])
     else
-      s.add_dependency(%q<activesupport>, ["> 3.0.0"])
-      s.add_dependency(%q<activerecord>, ["> 3.0.0"])
+      s.add_dependency(%q<activesupport>, ["~> 3.2.8"])
+      s.add_dependency(%q<activerecord>, ["~> 3.2.8"])
       s.add_dependency(%q<hoe>, ["~> 2.10"])
     end
   else
